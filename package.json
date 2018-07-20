@@ -1,0 +1,24 @@
+{
+  "name": "ASPNETCore-SignalR-AzureService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemi-chand/ASPNETCore-SignalR-AzureService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemi-chand/ASPNETCore-SignalR-AzureService/issues"
+  },
+  "homepage": "https://github.com/nemi-chand/ASPNETCore-SignalR-AzureService#readme",
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.0",
+    "tslint": "^5.10.0"
+  }
+}

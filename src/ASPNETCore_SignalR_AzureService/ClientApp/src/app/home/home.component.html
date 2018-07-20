@@ -1,0 +1,17 @@
+
+
+<br />
+<br />
+
+<form (ngSubmit)="send()">
+
+  Enter Text to send <input type="text" [(ngModel)]="message" name="message" />
+  <input type="submit" name="" value="Send" />
+</form>
+
+<div>
+      messages received
+     <div *ngFor="let msg of messageHistory">
+       <p>{{msg}}</p>
+     </div>
+</div>
